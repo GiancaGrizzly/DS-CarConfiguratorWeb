@@ -1,2 +1,0 @@
-class Tapicerium < ApplicationRecord
-end
