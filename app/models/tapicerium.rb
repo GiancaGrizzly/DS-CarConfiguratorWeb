@@ -1,0 +1,2 @@
+class Tapicerium < ApplicationRecord
+end

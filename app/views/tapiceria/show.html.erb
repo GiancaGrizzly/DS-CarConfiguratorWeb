@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @tapicerium %>
+
+<div>
+  <%= link_to "Edit this tapicerium", edit_tapicerium_path(@tapicerium) %> |
+  <%= link_to "Back to tapiceria", tapiceria_path %>
+
+  <%= button_to "Destroy this tapicerium", @tapicerium, method: :delete %>
+</div>
