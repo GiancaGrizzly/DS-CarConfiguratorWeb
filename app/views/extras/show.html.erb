@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @extra %>
+
+<% if @extra.image.attached? %>
+  <p>
+    <%= image_tag @extra.image %>
+  </p>
+<% end %>
+
+<div>
+  <%= link_to "Edit this extra", edit_extra_path(@extra) %> |
+  <%= link_to "Back to extras", extras_path %>
+
+  <%= button_to "Destroy this extra", @extra, method: :delete %>
+</div>
